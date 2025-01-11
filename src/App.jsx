@@ -16,7 +16,6 @@ import blueLogoM from './assets/blueLogoM.svg'
 import linkdin from './assets/linkedin.svg'
 import x from './assets/twitter-x.svg'
 import instagram from './assets/instagram.svg'
-// import facebook from './assets/facebook.svg'
 import downArrow from './assets/downArrow.svg'
 import rightArrow from './assets/rightArrow.svg'
 import laptop1 from './assets/reference/ProCodrr.webp'
@@ -27,11 +26,12 @@ import noman from './assets/noman.jpeg'
 import connect from './assets/connect.png'
 import contactme from './assets/contact-me.svg'
 import laptop1light from './assets/laptop 1 light.png'
-import laptop1dark from './assets/laptop 1 dark.png'
+import laptop1dark from './assets/laptop 5 dark.png'
 import laptop2light from './assets/laptop 2 light.png'
 import laptop2dark from './assets/laptop 2 dark.png'
 import usermale from './assets/user male.svg'
 import userfemale from './assets/user female.svg'
+import BouncingCircles from './components/BouncingCircles';
 
 
 
@@ -56,6 +56,7 @@ function App() {
 
   return (
     <>
+   
     <div className='body bg-[#111] text-white font-Nunito'>
         <section className='flex flex-col justify-between h-screen'>
           <header className='z-10 pointer-events-none flex items-center justify-between w-full px-4 mt-4 max-w-screen-xl mx-auto'>
@@ -63,11 +64,13 @@ function App() {
             <img src={whiteLogoM} alt="" className='w-20 h-20' />
             <div className='flex gap-4 pointer-events-auto'><ToggleButtonDark /></div>
           </header>
-          <div className='absolute inset-0 hidden md:block' id="wrapper-canvas"></div>
+          <div className='absolute right-0 left-0 bottom-0 top-0 inset-0 hidden md:block' id="wrapper-canvas">
+            <BouncingCircles/>
+          </div>
             
             <div className='flex -mt-10 relative'>
               <div className='w-full px-4 max-w-screen-xl mx-auto'>
-                <img src={blueLogoM} alt="" className='pointer-events-none absolute top-0 left-1/2 -translate-y-[70px] sm:-translate-y-[100px] -translate-x-1/2 w-[200px] sm:w-[300px] md:w-[500px] opacity-60' />
+                <img src={blueLogoM} alt="" className='pointer-events-none absolute top-0 left-1/2 -translate-y-[70px] sm:-translate-y-[100px] -translate-x-1/2 w-[200px] sm:w-[300px] md:w-[500px] opacity-80' />
                 <div className='relative'>
                   <h1 className='pointer-events-none text-4xl md:text-[64px] font-semibold font-Spartan mr-12'> Masab Qurban </h1>
                   <p className='pointer-events-none text-[25px] font-Merriweather italic my-4 md:my-8'> Front-End Website Developer </p>
@@ -113,7 +116,7 @@ function App() {
             </div>
             <a href="https://tool-matrix.vercel.app/" className='flex w-full relative justify-center sm:justify-start'>
               <div className='flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200'>
-                <img src={laptop1dark} alt="" className='max-w-7xl w-[550px] mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]'/>
+                <img src={laptop1dark} alt="" className='max-w-7xl w-[400px] mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]'/>
                 <span className='flex group-hover:top-[88px] ease-jump duration-200 bg-[#d9784e] text-black sm:absolute left-1/2 sm:-translate-x-1/2 top-40 px-2 py-1 text-sm sm:text-base mt-2 rounded-md w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 transition-all'> Tool Matrix
                   <img src={blacklink} alt="" className='feather feather-external-link'/>
                 </span>
@@ -254,7 +257,7 @@ function App() {
             <div className="swiper-wrapper items-center">
               
               <div className="swiper-slide px-4">
-                <div className="flex flex-col md:flex-row w-full md:max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
+                <div className="flex flex-col md:flex-row w-full md:max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab active:cursor-grabbing" >
                   <img src={noman} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
                     <p className="text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel consequuntur ex, error non provident atque? Iste eveniet eaque dolorem quo placeat odit expedita impedit quam consectetur eius aperiam, temporibus aut.” </p>
@@ -374,82 +377,10 @@ function App() {
           </div>
         </section>
 
-        <footer className="flex flex-col items-center pb-10">
+        <footer className="flex flex-col items-center pb-20">
           <p className="text-xs text-gray-300">Masab Qurban © 2025</p>
           <div className="black-logo my-4 "> <img src={blueLogoM} alt="" className='w-14 h-14'/> </div>
-          <ul className="mx-auto flex items-center justify-center gap-6 text-[#b0b2c3]">
-            <li>
-              <a href="" target="_blank">
-                <SocialMedia/>
-                <svg
-                  className="w-5 hover:text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                <svg
-                  className="w-5 hover:text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <svg
-                  className="w-5 hover:text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                <svg
-                  className="w-5 hover:text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <svg
-                  className="w-5 hover:text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 576 512"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          <SocialMedia/>
         </footer>
     </div>
     </>
