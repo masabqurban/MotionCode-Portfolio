@@ -161,7 +161,7 @@ function App() {
             </a>
           </div>
 
-           <div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative" >
+           {/* <div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative" >
             <div className="h-[1px] left-1/4 right-1/2 bg-[#1788ae] absolute top-1/2 hidden sm:block" ></div>
             <div className="w-4 h-4 rounded-full border-[3px] border-[#fc815c] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block" ></div>
             <a href="#" className="flex w-full relative justify-center sm:justify-start" >
@@ -188,7 +188,7 @@ function App() {
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> #figma </li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
           {/*<div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative" >
             <div className="order-2 sm:order-1 w-full">
