@@ -2,6 +2,10 @@
 import React from 'react';
 import mypicture from '../assets/mypic.png'
 import react from '../assets/react.svg'
+import Button from './closebutton';
+import tailwind from '../assets/tailwindcsslogo.svg'
+import laravel from '../assets/laravellogo.svg'
+
 
 
 const Popup = ({ close }) => {
@@ -13,7 +17,7 @@ const Popup = ({ close }) => {
           className="absolute top-4 right-4 text-gray-400 hover:text-white focus:outline-none"
           onClick={close}
         >
-          ✕
+          <Button/>
         </button>
 
         {/* Content Section */}
@@ -54,9 +58,8 @@ const Popup = ({ close }) => {
               <h2 className="text-[#1595b6] text-2xl font-semibold mt-12 mb-4">Front-End Web Developer</h2>
               <div className="flex space-x-8 mt-12">
                 <img src={react} alt="MongoDB" className="w-12" />
-                <img src={react} alt="Express.js" className="w-12" />
-                <img src={react} alt="React.js" className="w-12" />
-                <img src={react} alt="Node.js" className="w-12" />
+                <img src={laravel} alt="Express.js" className="w-12" />
+                <img src={tailwind} alt="React.js" className="w-12" />
               </div>
             </div>
           </div>
