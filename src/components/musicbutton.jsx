@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect  } from 'react';
 import styled from 'styled-components';
 import musiccalm from '../assets/musiccalm.mp3';
 
@@ -9,6 +9,12 @@ const Switch = () => {
   // Ensure audio starts paused
   React.useEffect(() => {
     audioRef.current.pause();
+  }, []);
+
+  // Set the audio to loop
+  useEffect(() => {
+    audioRef.current.loop = true; // Enable looping
+    audioRef.current.pause(); // Start paused
   }, []);
 
   const handleToggle = (checked) => {
