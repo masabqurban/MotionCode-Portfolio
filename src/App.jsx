@@ -85,7 +85,7 @@ function App() {
   return (
     <>
    
-    <div className='body bg-[#111] text-white font-Nunito'>
+    <div className='body bg-[#111] text-white font-lexend'>
         <section id='home' className='flex flex-col justify-between h-screen'>
           <header className='z-10 pointer-events-none flex items-center justify-between w-full px-4 mt-4 max-w-screen-xl mx-auto'>
             {/* <img src={theme === 'light' ? whiteLogoM : whiteLogoM } alt="" className='md:w-40 w-28' /> */}
@@ -100,12 +100,12 @@ function App() {
               <div className='w-full px-4 max-w-screen-xl mx-auto'>
                 <img src={blueLogoM} alt="" className='pointer-events-none absolute top-0 left-1/2 -translate-y-[70px] sm:-translate-y-[100px] -translate-x-1/2 w-[200px] sm:w-[300px] md:w-[500px] opacity-80' />
                 <div className='relative'>
-                  <h1 className='pointer-events-none text-4xl md:text-[64px] font-semibold font-Spartan mr-12'> Masab Qurban </h1>
-                  <p className='pointer-events-none text-[25px] font-Merriweather italic my-4 md:my-8'> Front-End Website Developer </p>
+                  <h1 className='pointer-events-none text-4xl md:text-[64px] font-semibold font-lexend mr-12'> Masab Qurban </h1>
+                  <p className='pointer-events-none text-[25px] font-lexend italic my-4 md:my-8'> Front-End Website Developer </p>
                   {/* <button className="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group"> About Me
                     <img src={rightArrow} alt="" className='absolute top-1/2 -translate-y-1/2 -right-7 group-hover:-right-8 ease-in-out duration-100' />
                   </button> */}
-                  <button onClick={() => setIsPopupVisible(true)} className='py-2 px-4 rounded font-extrabold relative hover:scale-110 ease-in-out duration-100 group'>
+                  <button onClick={() => setIsPopupVisible(true)} className='py-2 px-4 rounded font-bold relative hover:scale-110 ease-in-out duration-100 group'>
                     <Button />
                   </button>
                 </div>
@@ -127,7 +127,7 @@ function App() {
               {/* <button className='bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group mb-20'> Latest Works
                 <img src={downArrow} alt="" className='absolute rotate-90 left-1/2 -translate-x-1/2 top-11 group-hover:top-12 ease-in-out duration-100'/>
               </button> */}
-            <div className='w-full flex justify-center items-center rounded font-extrabold relative hover:scale-110 ease-in-out duration-100 transition-all group mb-10'>
+            <div className='w-full flex justify-center items-center rounded font-bold relative hover:scale-110 ease-in-out duration-100 transition-all group mb-10'>
               <div href='#project' className='cursor-pointer' onClick={handleScroll}>
                 <motion.div className='w-[35px] h-[64px] rounded-3xl border-4 border-[#1595b6] flex justify-center items-start p-2' initial="hidden" animate="visible" transition={{ opacity: { duration: 0.3, delay: 0.3 }, y: { duration: 0.3, delay: 0.3 } }} variants={AVariants}>
                   <motion.div animate={{ y: [0, 24, 0], }} transition={{ duration: 1.5, repeat: Infinity, repeatType: "loop", }} className='w-3 h-3 rounded-full bg-[#1788ae] mb-1'/>

@@ -5,27 +5,23 @@ import react from '../assets/react.svg'
 import Button from './closebutton';
 import tailwind from '../assets/tailwindcsslogo.svg'
 import laravel from '../assets/laravellogo.svg'
-
+import mypic2 from '../assets/mypic2.png'
+import Download from './downloadbutton';
 
 
 const Popup = ({ close }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
-      <div className="bg-[#191919] text-white rounded-2xl p-6 max-w-6xl w-full h-fit relative">
-        {/* Close Button */}
-        <button
-          className="absolute top-4 right-4 text-gray-400 hover:text-white focus:outline-none"
-          onClick={close}
-        >
-          <Button/>
-        </button>
+      <div className="">
 
         {/* Content Section */}
-        <div className="px-10 py-5 mb-5 flex justify-between gap-10">
+        <div className="  max-w-6xl w-full h-fit relative px-10 py-5 grid grid-cols-2">
           {/* About Me Section */}
-          <div className='w-[50%]'>
-            <h2 className="text-[#1595b6] text-2xl font-semibold mb-4">ABOUT ME</h2>
-            <p className="mb-4">
+          <div className='relative bg-[#ececec] text-black p-20 overflow-hidden'>
+            <span className='z-0 text-[190px] absolute -top-14 -right-24 text-[#e6e6e6] font-bold heading-font'>ABOUT</span>
+            <h2 className="relative z-10 text-[#1595b6] text-2xl font-semibold">ABOUT ME</h2>
+            <h2 className="relative z-10 text-[#1595b6] text-lg mb-4">Front-End Web Developer</h2>
+            <p className="mb-4 relative z-10">
               I help business owners and busy web developers to design & develop creative websites that fit their vision
               and attract the visitors to stay for ever. Technologies and tools that I use to create such awesome websites.
             </p>
@@ -55,22 +51,23 @@ const Popup = ({ close }) => {
             </div>
             {/* MERN Stack Section */}
             <div className="mt-6">
-              <h2 className="text-[#1595b6] text-2xl font-semibold mt-12 mb-4">Front-End Web Developer</h2>
-              <div className="flex space-x-8 mt-12">
+              {/* <div className="flex space-x-8 mt-12">
                 <img src={react} alt="MongoDB" className="w-12" />
                 <img src={laravel} alt="Express.js" className="w-12" />
                 <img src={tailwind} alt="React.js" className="w-12" />
-              </div>
+              </div> */}
+              <Download/>
             </div>
           </div>
 
           {/* Illustration Section */}
-          <div className='w-[50%]'>
-          <div className="flex justify-end items-start">
-            <div className="relative">
-              <div className="absolute inset-0"></div>
-              <img src={mypicture} alt="my picture" className="z-10 w-80 h-80 rounded-2xl object-contain mx-auto" />
+          <div className='bg-[#1c1d25] relative text-white p-20 overflow-hidden'>
+          <span className='z-0 text-[190px] absolute -bottom-14 -right-40 text-[#27282f] font-bold heading-font'>DEVELO</span>
+          <div className="flex justify-between items-start">
+            <div className="w-full relative flex items-start justify-start">
+              <img src={mypic2} alt="my picture" className=" z-10 w-full h-full object-cover mx-auto" />
             </div>
+               <button className="absolute right-4 top-4 text-gray-400 hover:text-white focus:outline-none" onClick={close} > <Button/> </button>
           </div>
           </div>
         </div>
