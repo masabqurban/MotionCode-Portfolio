@@ -7,6 +7,7 @@ import SocialMedia from './components/SocialMedia';
 import Popup from './components/About';
 import Input from './components/formfields';
 import Switch from './components/musicbutton';
+import RippleButton from './components/ripplebutton';
 
 
 
@@ -364,6 +365,7 @@ function App() {
               <button type="submit" className="w-full text-white bg-[#1788ae] hover:bg-[#1280a4] focus:ring-4 focus:ring-[#4489a0] font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none" >
                 Send
               </button>
+              {/* <RippleButton dynamicText={"send"}/> */}
             </form>
           </div>
         </section>
