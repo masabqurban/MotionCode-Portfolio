@@ -6,7 +6,7 @@ const Input = ({ label, type = 'text' }) => {
 
   return (
     <StyledWrapper>
-      <div className="form-control">
+      <div className="font-HubotSans font-medium form-control">
         {isTextarea ? (
           <textarea required placeholder=" " />
         ) : (

@@ -11,6 +11,13 @@ export default {
       },
       fontFamily: {
         lexend: ['Lexend', 'sans-serif'], // Add Lexend font
+        LeagueSpartan: ['League Spartan', 'sans-serif'], // Add League Spartan font
+        Poppins: ['Poppins', 'sans-serif'], // Add Poppins font
+        Roboto: ['Roboto', 'sans-serif'], // Add Roboto font
+        PlayfairDisplay: ['Playfair Display', 'serif'], // Add Playfair Display font
+        OpenSans: ['Open Sans', 'sans-serif'], // Add Open Sans font
+        Figtree: ['Figtree', 'sans-serif'], // Add Figtree font
+        HubotSans: ['Hubot Sans', 'sans-serif'], // Add Hubot Sans font
       },
     },
   },
