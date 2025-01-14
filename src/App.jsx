@@ -101,8 +101,8 @@ function App() {
               <div className='w-full px-4 max-w-screen-xl mx-auto'>
                 <img src={blueLogoM} alt="" className='pointer-events-none absolute top-0 left-1/2 -translate-y-[70px] sm:-translate-y-[100px] -translate-x-1/2 w-[200px] sm:w-[300px] md:w-[500px] opacity-80' />
                 <div className='relative'>
-                  <h1 className='pointer-events-none text-[32px] md:text-[64px] font-bold font-lexend mr-12'> Masab Qurban </h1>
-                  <p className='pointer-events-none text-[18px] md:text-[25px] font-medium font-HubotSans italic my-4 md:my-8'> Front-End Website Developer </p>
+                  <h1 className='text-black dark:text-white pointer-events-none text-[32px] md:text-[64px] font-bold font-lexend mr-12'> Masab Qurban </h1>
+                  <p className='text-black dark:text-white pointer-events-none text-[18px] md:text-[25px] font-medium font-HubotSans italic my-4 md:my-8'> Front-End Website Developer </p>
                   {/* <button className="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group"> About Me
                     <img src={rightArrow} alt="" className='absolute top-1/2 -translate-y-1/2 -right-7 group-hover:-right-8 ease-in-out duration-100' />
                   </button> */}
@@ -139,7 +139,7 @@ function App() {
         </section>
 
         <section id='project' className='max-w-screen-xl mx-auto px-4 relative pb-8 sm:pb-16'>
-          <h2 className='text-3xl sm:text-[40px] bg-[#111] relative z-10 font-bold font-lexend px-4 py-2 w-max mx-auto text-center text-[#1788ae] sm:border-b-2 border-[#1788ae]'> Latest Projects </h2>
+          <h2 className='text-3xl sm:text-[40px] bg-[#ececec] dark:bg-[#111] relative z-10 font-bold font-lexend px-4 py-2 w-max mx-auto text-center text-[#1788ae] sm:border-b-2 border-[#1788ae]'> Latest Projects </h2>
           
           <div className='flex flex-col sm:flex-row gap-4 mt-8 sm:gap-[80px] items-center sm:mt-20 relative'>
             <div className='h-[1px] left-1/4 right-1/2 bg-[#d9784e] absolute top-1/2 hidden sm:block'>  
@@ -157,8 +157,8 @@ function App() {
             <div className='w-full'>
               <h3 className='text-[#d9784e] font-bold text-2xl md:text-4xl font-lexend'> Tool Matrix </h3>
               <span className='text-[#d9784e] text-base md:text-lg font-HubotSans font-medium' > (Final Year Project)</span>
-              <p className='text-justify text-sm md:text-base mt-2 font-HubotSans '> A web-based platform developed in React JS, Node JS and Tailwind CSS featuring calculators for various domains. Integrated a Python-powered AI model utilizing Gemini API to solve handwritten math problems. Achieved 95% accuracy in solving math queries through the AI-powered handwriting recognition feature. </p>
-              <ul className='flex flex-wrap gap-2 mt-2'>
+              <p className='text-black dark:text-white text-justify text-sm md:text-base mt-2 font-HubotSans '> A web-based platform developed in React JS, Node JS and Tailwind CSS featuring calculators for various domains. Integrated a Python-powered AI model utilizing Gemini API to solve handwritten math problems. Achieved 95% accuracy in solving math queries through the AI-powered handwriting recognition feature. </p>
+              <ul className='flex flex-wrap gap-2 mt-2 text-black dark:text-white'>
                 <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend'> React JS </li>
                 <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend'> Node JS </li>
                 <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend'> Python </li>
@@ -172,8 +172,8 @@ function App() {
             <div className="order-2 sm:order-1 w-full">
               <h3 className="text-[#44b1e5] font-bold text-2xl md:text-4xl font-lexend"> PNG to Text </h3>
               <span className="text-[#44b1e5] text-base md:text-lg font-HubotSans font-medium" >(Image Processor)</span >
-              <p className="text-justify text-sm md:text-base mt-2 font-HubotSans"> Developed a feature-rich web-based platform using PHP, Laravel and Tailwind CSS. Integrated tools for image conversion, compression, and text extraction to enhance file processing efficiency. </p>
-              <ul className="flex flex-wrap gap-2 mt-2">
+              <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2 font-HubotSans"> Developed a feature-rich web-based platform using PHP, Laravel and Tailwind CSS. Integrated tools for image conversion, compression, and text extraction to enhance file processing efficiency. </p>
+              <ul className="flex flex-wrap gap-2 mt-2 text-black dark:text-white">
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend"> PHP Laravel </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend"> JavaScript </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend"> Tailwind CSS </li>
@@ -284,7 +284,7 @@ function App() {
         </section>
 
         <section className="max-w-screen-xl mx-auto pb-12">
-          <h2 className="font-lexend text-3xl sm:text-[40px] bg-[#111] sm:w-max relative z-10 font-bold px-4 py-4 mx-auto text-center text-[#1788ae] sm:border-2 border-[#1788ae] rounded-md" > What my clients are saying? </h2>
+          <h2 className="font-lexend text-3xl sm:text-[40px] bg-[#ececec] dark:bg-[#111] sm:w-max relative z-10 font-bold px-4 py-4 mx-auto text-center text-[#1788ae] sm:border-2 border-[#1788ae] rounded-md" > What my clients are saying? </h2>
           <div className="swiper mySwiper !py-14">
             <div className="swiper-wrapper items-center">
               
@@ -292,7 +292,7 @@ function App() {
                 <div className="flex flex-col md:flex-row w-full md:max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab active:cursor-grabbing" >
                   <img src={noman} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
-                    <p className="font-HubotSans font-medium text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel consequuntur ex, error non provident atque? Iste eveniet eaque dolorem quo placeat odit expedita impedit quam consectetur eius aperiam, temporibus aut.” </p>
+                    <p className="text-black dark:text-white font-HubotSans font-medium text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel consequuntur ex, error non provident atque? Iste eveniet eaque dolorem quo placeat odit expedita impedit quam consectetur eius aperiam, temporibus aut.” </p>
                     <h2 className="font-lexend text-right text-[#459bd5] font-bold text-2xl md:text-4xl" > Noman Tariq </h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#459bd5] text-base md:text-lg"> Flutter App Developer </h5>
                   </div>
@@ -303,7 +303,7 @@ function App() {
                 <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
                   <img src={usermale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
-                    <p className="font-HubotSans font-medium text-sm md:text-base mb-2"> “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto magni praesentium impedit, aut consectetur perferendis suscipit minus temporibus in quam eum modi commodi officia rerum iste beatae, nisi quia necessitatibus!” </p>
+                    <p className="text-black dark:text-white font-HubotSans font-medium text-sm md:text-base mb-2"> “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto magni praesentium impedit, aut consectetur perferendis suscipit minus temporibus in quam eum modi commodi officia rerum iste beatae, nisi quia necessitatibus!” </p>
                     <h2 className="font-lexend text-right text-[#459bd5] font-bold text-2xl md:text-4xl" > Umair Javed </h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#459bd5] text-base md:text-lg"> Angular Developer </h5>
                   </div>
@@ -314,7 +314,7 @@ function App() {
                 <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
                   <img src={taha} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
-                    <p className="font-HubotSans font-medium text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum cupiditate culpa dolores ipsum earum magni maiores assumenda molestiae, quaerat aut debitis quas vel excepturi. Ut vel ab molestias earum!” </p>
+                    <p className="text-black dark:text-white font-HubotSans font-medium text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum cupiditate culpa dolores ipsum earum magni maiores assumenda molestiae, quaerat aut debitis quas vel excepturi. Ut vel ab molestias earum!” </p>
                     <h2 className="font-lexend text-right text-[#459bd5] font-bold text-2xl md:text-4xl" > Taha Umer </h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#459bd5] text-base md:text-lg"> MERN Stack Developer </h5>
                   </div>
@@ -325,7 +325,7 @@ function App() {
                 <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
                   <img src={userfemale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
-                    <p className="font-HubotSans text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum cupiditate culpa dolores ipsum earum magni maiores assumenda molestiae, quaerat aut debitis quas vel excepturi. Ut vel ab molestias earum!” </p>
+                    <p className="text-black dark:text-white font-HubotSans text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum cupiditate culpa dolores ipsum earum magni maiores assumenda molestiae, quaerat aut debitis quas vel excepturi. Ut vel ab molestias earum!” </p>
                     <h2 className="font-lexend text-right text-[#459bd5] font-bold text-2xl md:text-4xl" > Afeera Abid</h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#459bd5] text-base md:text-lg"> Graphic Designer </h5>
                   </div>
@@ -336,7 +336,7 @@ function App() {
                 <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
                   <img src={userfemale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
-                    <p className="font-HubotSans text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum cupiditate culpa dolores ipsum earum magni maiores assumenda molestiae, quaerat aut debitis quas vel excepturi. Ut vel ab molestias earum!” </p>
+                    <p className="text-black dark:text-white font-HubotSans text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum cupiditate culpa dolores ipsum earum magni maiores assumenda molestiae, quaerat aut debitis quas vel excepturi. Ut vel ab molestias earum!” </p>
                     <h2 className="font-lexend text-right text-[#459bd5] font-bold text-2xl md:text-4xl" > Hafsa Arshad </h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#459bd5] text-base md:text-lg"> Front-End Developer </h5>
                   </div>
@@ -351,7 +351,7 @@ function App() {
         </section>
 
         <section className="max-w-screen-xl mx-auto px-4 pb-12">
-          <h2 className="font-lexend text-3xl sm:text-[40px] bg-[#111] relative z-10 font-bold px-4 py-2 w-max mx-auto text-center text-[#1788ae] sm:border-2 border-[#1788ae] rounded-md">
+          <h2 className="font-lexend text-3xl sm:text-[40px] bg-[#ececec] dark:bg-[#111] relative z-10 font-bold px-4 py-2 w-max mx-auto text-center text-[#1788ae] sm:border-2 border-[#1788ae] rounded-md">
             Let's Connect
           </h2>
           <div className="font-lexend flex flex-col md:flex-row items-center mt-10">
@@ -371,7 +371,7 @@ function App() {
         </section>
 
         <footer className="flex flex-col items-center pb-20">
-          <p className="text-xs text-gray-300 font-lexend font-semibold">Masab Qurban © 2025</p>
+          <p className="text-xs text-black dark:text-gray-300 font-lexend font-semibold">Masab Qurban © 2025</p>
           <div href='#home' onClick={scrollToTop} className="my-4 cursor-pointer "> <img src={blueLogoM} alt="" className='w-14 h-14'/> </div>
           <SocialMedia/>
         </footer>

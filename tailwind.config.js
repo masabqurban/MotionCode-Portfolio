@@ -19,6 +19,7 @@ export default {
         OpenSans: ['Open Sans', 'sans-serif'], // Add Open Sans font
         Figtree: ['Figtree', 'sans-serif'], // Add Figtree font
         HubotSans: ['Hubot Sans', 'sans-serif'], // Add Hubot Sans font
+        GideonRoman: ['Gideon Roman', 'sans-serif'], // Add Gideon Roman font
       },
     },
   },
