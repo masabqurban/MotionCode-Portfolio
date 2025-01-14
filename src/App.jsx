@@ -144,7 +144,7 @@ function App() {
           <div className='flex flex-col sm:flex-row gap-4 mt-8 sm:gap-[80px] items-center sm:mt-20 relative'>
             <div className='h-[1px] left-1/4 right-1/2 bg-[#d9784e] absolute top-1/2 hidden sm:block'>  
             </div>
-            <div className='w-4 h-4 rounded-full border-[3px] border-[#d9784e] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block'>
+            <div className='w-4 h-4 rounded-full border-[3px] border-[#d9784e] absolute left-1/2 -translate-x-1/2 bg-[#ececec] dark:bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block'>
             </div>
             <a href="https://tool-matrix.vercel.app/" className='flex w-full relative justify-center sm:justify-start'>
               <div className='flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200'>
@@ -182,7 +182,7 @@ function App() {
               </ul>
             </div>
             <div className="h-[1px] left-1/2 right-1/4 bg-[#44b1e5] absolute top-1/2 hidden sm:block" ></div>
-            <div className="w-4 h-4 rounded-full border-[3px] border-[#44b1e5] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block" ></div>
+            <div className="w-4 h-4 rounded-full border-[3px] border-[#44b1e5] absolute left-1/2 -translate-x-1/2 bg-[#ececec] dark:bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block" ></div>
             <a href="https://pngtotext.com/" className="order-1 md:order-2 flex w-full relative justify-center sm:justify-start" >
               <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 transition-all sm:ml-auto" >
                 <img src={laptop2dark} alt="" className='max-w-7xl w-[400px] mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]'/>
