@@ -1,10 +1,28 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Engine, Render, World, Bodies, Runner, Body, Events, Mouse, Common } from "matter-js";
 
-const RealisticFollowShapes = () => {
+const RealisticFollowShapes = ({ theme }) => {
   const sceneRef = useRef(null);
   const engineRef = useRef(Engine.create());
   const mousePosition = useRef({ x: window.innerWidth / 2, y: window.innerHeight / 2 });
+
+  const [shapeColors, setShapeColors] = useState({
+    polygonColor: theme === 'light' ? '#c7c7c7' : '#222222',
+    circle1Color: theme === 'light' ? '#dec663' : '#27292d',
+    circle2Color: theme === 'light' ? '#74d7ce' : '#334443',
+    circle3Color: theme === 'light' ? '#a0d490' : '#191919',
+    strokeColor: theme === 'light' ? '#fff' : '#000' // Define stroke color
+  });
+
+  useEffect(() => {
+    setShapeColors({
+      polygonColor: theme === 'light' ? '#c7c7c7' : '#222222',
+      circle1Color: theme === 'light' ? '#dec663' : '#27292d',
+      circle2Color: theme === 'light' ? '#74d7ce' : '#334443',
+      circle3Color: theme === 'light' ? '#a0d490' : '#191919',
+      strokeColor: theme === 'light' ? '#fff' : '#000', // Update stroke color when theme changes
+    });
+  }, [theme]);
 
   useEffect(() => {
     const engine = engineRef.current;
@@ -24,11 +42,10 @@ const RealisticFollowShapes = () => {
     const mouseCircle = Bodies.circle(window.innerWidth / 2, window.innerHeight / 2, 40, {
       isStatic: true,
       render: {
-        fillStyle: "black",
+        fillStyle: theme == 'light' ? "#176e98" : '#000',
       },
     });
 
-    // Create shapes based on the provided JavaScript
     const shapes = [];
     for (let i = 0; i < 60; i++) {
       const x = Common.random(0, render.options.width);
@@ -36,29 +53,29 @@ const RealisticFollowShapes = () => {
       const size = Common.random() > 0.6 ? Common.random(10, 80) : Common.random(4, 60);
       const polygonNumber = Common.random(3, 6);
 
-      // Create polygon shape
+      // Create polygon shape with dynamic color
       const polygon = Bodies.polygon(x, y, polygonNumber, size, {
         mass: size / 20,
         friction: 0,
         frictionAir: 0.02,
         angle: Math.round(Math.random() * 360),
         render: {
-          fillStyle: "#222222",
-          strokeStyle: "#000000",
+          fillStyle: shapeColors.polygonColor,
+          strokeStyle: shapeColors.strokeColor, // Use strokeColor from state
           lineWidth: 2,
         },
       });
 
       shapes.push(polygon);
 
-      // Create circles with random sizes
+      // Create circles with dynamic color
       const circle1 = Bodies.circle(x, y, Common.random(2, 8), {
         mass: 0.1,
         friction: 0,
         frictionAir: 0.01,
         render: {
-          fillStyle: Common.random(0, 1) > 0.3 ? "#27292d" : "#444444",
-          strokeStyle: "#000000",
+          fillStyle: shapeColors.circle1Color,
+          strokeStyle: shapeColors.strokeColor, // Use strokeColor from state
           lineWidth: 2,
         },
       });
@@ -70,8 +87,8 @@ const RealisticFollowShapes = () => {
         friction: 0,
         frictionAir: 0,
         render: {
-          fillStyle: Common.random(0, 1) > 0.3 ? "#334443" : "#222222",
-          strokeStyle: "#111111",
+          fillStyle: shapeColors.circle2Color,
+          strokeStyle: shapeColors.strokeColor, // Use strokeColor from state
           lineWidth: 4,
         },
       });
@@ -83,8 +100,8 @@ const RealisticFollowShapes = () => {
         friction: 0.6,
         frictionAir: 0.8,
         render: {
-          fillStyle: "#191919",
-          strokeStyle: "#111111",
+          fillStyle: shapeColors.circle3Color,
+          strokeStyle: shapeColors.strokeColor, // Use strokeColor from state
           lineWidth: 3,
         },
       });
@@ -177,7 +194,7 @@ const RealisticFollowShapes = () => {
       render.canvas.remove();
       render.textures = {};
     };
-  }, []);
+  }, [shapeColors]); // Re-run when shapeColors change
 
   return <div ref={sceneRef} />;
 };

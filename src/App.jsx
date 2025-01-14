@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import './App.css';
 import { motion } from "framer-motion";
 import Button from './components/button'; // Import the Button component
@@ -8,8 +8,7 @@ import Popup from './components/About';
 import Input from './components/formfields';
 import Switch from './components/musicbutton';
 import RippleButton from './components/ripplebutton';
-
-
+import ThemeContext from './hooks/ThemeContext';
 
 //media
 import reactLogo from './assets/react.svg'
@@ -42,6 +41,8 @@ import BouncingCircles from './components/BouncingCircles';
 function App() {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
   const AVariants = { hidden: { opacity: 0, y: 100 }, visible: { opacity: 1, y: 0 } };
+  const { theme } = useContext(ThemeContext);
+
   const handleScroll = () => {
     const targetScroll = window.scrollY + window.innerHeight;
     const duration = 700;
@@ -86,15 +87,14 @@ function App() {
   return (
     <>
    
-    <div className='body bg-[#111] text-white'>
+    <div className='body dark:bg-[#111] bg-[#ececec] text-white'>
         <section id='home' className='flex flex-col justify-between h-screen'>
           <header className='z-10 pointer-events-none flex items-center justify-between w-full px-4 mt-4 max-w-screen-xl mx-auto'>
-            {/* <img src={theme === 'light' ? whiteLogoM : whiteLogoM } alt="" className='md:w-40 w-28' /> */}
-            <img src={whiteLogoM} alt="" className='w-20 h-20 cursor-pointer pointer-events-auto' onClick={() => window.location.reload()} />
+            <img src={theme == 'light' ? blueLogoM : whiteLogoM} alt="" className='w-20 h-20 cursor-pointer pointer-events-auto' onClick={() => window.location.reload()} />
             <div className='flex gap-4 pointer-events-auto'><Switch /><div><ToggleButtonDark /></div></div>
           </header>
           <div className='absolute right-0 left-0 bottom-0 top-0 inset-0 hidden md:block' id="wrapper-canvas">
-            <BouncingCircles/>
+            <BouncingCircles theme={theme} />
           </div>
             
             <div className='flex -mt-10 relative'>
