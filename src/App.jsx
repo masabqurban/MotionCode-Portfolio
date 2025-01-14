@@ -355,7 +355,7 @@ function App() {
             Let's Connect
           </h2>
           <div className="font-lexend flex flex-col md:flex-row items-center mt-10">
-            <div className="w-full">
+            <div className="w-full mr-5">
               <img src={contactme} alt="connect" />
             </div>
             <form className="w-full" name="contactUS">
@@ -365,7 +365,7 @@ function App() {
               {/* <button type="submit" className="w-full text-white bg-[#1788ae] hover:bg-[#1280a4] focus:ring-4 focus:ring-[#4489a0] font-lexend font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none" >
                 Send
               </button> */}
-              <RippleButton dynamicText="Next" type="submit" dynamicClasses="bg-[#1788ae] hover:bg-[#1280a4] cursor-pointer rounded-lg" />
+              <RippleButton dynamicText="Send" type="submit" dynamicClasses="bg-[#1788ae] hover:bg-[#1280a4] cursor-pointer rounded-lg" />
             </form>
           </div>
         </section>
