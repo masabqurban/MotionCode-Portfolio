@@ -15,7 +15,7 @@ const Popup = ({ close }) => {
       <div className="">
 
         {/* Content Section */}
-        <div className="md:max-w-6xl w-full h-full md:h-fit relative px-5 md:px-10 py-1 md:py-5 flex flex-col-reverse md:grid md:grid-cols-2">
+        <div className="md:max-w-6xl w-full md:h-fit relative px-5 md:px-10 py-1 md:py-5 flex flex-col-reverse md:grid md:grid-cols-2 max-h-[80vh] overflow-y-scroll md:overflow-y-hidden">
           {/* About Me Section */}
           <div className='relative bg-[#ececec] text-black p-5 md:p-20 overflow-hidden'>
             <span className='z-0 text-[190px] absolute -top-14 -right-24 text-[#e6e6e6] font-bold heading-font'>ABOUT</span>

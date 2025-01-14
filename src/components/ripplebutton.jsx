@@ -17,7 +17,11 @@ const RippleButton = ({
     const x = e.clientX - rect.left - size / 2;
     const y = e.clientY - rect.top - size / 2;
 
-    const newRipple = { x, y, size };
+    const newRipple = {
+      x,
+      y,
+      size,
+    };
 
     setRippleArray((prev) => [...prev, newRipple]);
 
@@ -30,21 +34,19 @@ const RippleButton = ({
   return (
     <button
       disabled={disabled}
-      className={`ripple-button ${dynamicClasses}`}
+      className={`relative overflow-hidden text-white w-full px-5 py-2 outline-none font-medium text-base ${dynamicClasses}`}
       type={type}
       onClick={(e) => {
-        if (!disabled) {
-          createRipple(e);
-          if (onClick) onClick(e);
-        }
+        createRipple(e);
+        if (onClick) onClick(e);
       }}
     >
       {dynamicText}
-      <div className="ripple-container">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {rippleArray.map((ripple, index) => (
           <span
             key={index}
-            className="ripple"
+            className={`absolute rounded-full bg-white bg-opacity-60 ripple-animation`}
             style={{
               left: ripple.x,
               top: ripple.y,

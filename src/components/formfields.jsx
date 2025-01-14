@@ -40,7 +40,7 @@ const StyledWrapper = styled.div`
     width: 100%;
     padding: 15px 0;
     font-size: 18px;
-    color: #1788ae;
+    color: #fff;
     resize: none; /* Prevent textarea resizing */
     overflow: hidden; /* Hide scrollbars while preserving scrolling */
     white-space: pre-wrap; /* Ensure text wraps properly */

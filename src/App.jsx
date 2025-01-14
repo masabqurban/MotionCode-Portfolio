@@ -362,10 +362,10 @@ function App() {
               <Input label="Name" type="text" />
               <Input label="Email" type="email" />
               <Input label="Message" type="textarea" />
-              <button type="submit" className="w-full text-white bg-[#1788ae] hover:bg-[#1280a4] focus:ring-4 focus:ring-[#4489a0] font-lexend font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none" >
+              {/* <button type="submit" className="w-full text-white bg-[#1788ae] hover:bg-[#1280a4] focus:ring-4 focus:ring-[#4489a0] font-lexend font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none" >
                 Send
-              </button>
-              {/* <RippleButton dynamicText={"send"}/> */}
+              </button> */}
+              <RippleButton dynamicText="Next" type="submit" dynamicClasses="bg-[#1788ae] hover:bg-[#1280a4] cursor-pointer rounded-lg" />
             </form>
           </div>
         </section>
