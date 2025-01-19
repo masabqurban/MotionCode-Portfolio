@@ -1,20 +1,36 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useContext } from 'react';
+import ThemeContext from '../hooks/ThemeContext';
 
 const Input = ({ label, type = 'text' }) => {
+  const { theme } = useContext(ThemeContext);
   const isTextarea = type === 'textarea';
 
   return (
     <StyledWrapper>
       <div className="font-HubotSans font-medium form-control">
         {isTextarea ? (
-          <textarea required placeholder=" " />
+          <textarea
+            required
+            className="bg-transparent text-black dark:text-white border-b-2 border-[#1f2667e6] dark:border-[#1788ae] focus:border-[#1788ae] dark:focus:border-[#add8e6] focus:outline-none"
+            placeholder=" "
+          />
         ) : (
-          <input type={type} required placeholder=" " />
+          <input
+            type={type}
+            required
+            className="bg-transparent text-black dark:text-white border-b-2 border-[#1f2667e6] dark:border-[#1788ae] focus:border-[#1788ae] dark:focus:border-[#add8e6] focus:outline-none"
+            placeholder=" "
+          />
         )}
         <label>
           {label.split('').map((char, index) => (
-            <span key={index} style={{ transitionDelay: `${index * 50}ms` }}>
+            <span
+              key={index}
+              className="text-[#1f2667e6] dark:text-[#1788ae] transition-all duration-300 ease-in-out"
+              style={{ transitionDelay: `${index * 50}ms` }}
+            >
               {char}
             </span>
           ))}
@@ -34,24 +50,13 @@ const StyledWrapper = styled.div`
   .form-control input,
   .form-control textarea {
     background-color: transparent;
-    border: 0;
-    border-bottom: 2px #1788ae solid;
     display: block;
     width: 100%;
     padding: 15px 0;
     font-size: 18px;
-    color: #fff;
     resize: none; /* Prevent textarea resizing */
     overflow: hidden; /* Hide scrollbars while preserving scrolling */
     white-space: pre-wrap; /* Ensure text wraps properly */
-  }
-
-  .form-control input:focus,
-  .form-control input:not(:placeholder-shown),
-  .form-control textarea:focus,
-  .form-control textarea:not(:placeholder-shown) {
-    outline: 0;
-    border-bottom-color: lightblue;
   }
 
   .form-control label {
@@ -65,7 +70,6 @@ const StyledWrapper = styled.div`
     display: inline-block;
     font-size: 18px;
     min-width: 5px;
-    color: #1788ae;
     transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
@@ -73,7 +77,6 @@ const StyledWrapper = styled.div`
   .form-control input:not(:placeholder-shown) + label span,
   .form-control textarea:focus + label span,
   .form-control textarea:not(:placeholder-shown) + label span {
-    color: lightblue;
     transform: translateY(-30px);
   }
 

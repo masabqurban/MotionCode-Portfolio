@@ -87,7 +87,7 @@ const StyledWrapper = styled.div`
   }
 
   .icon svg {
-    fill: ##b0b2c3;
+    fill: #737373;
   }
 
   .socialcontainer {
