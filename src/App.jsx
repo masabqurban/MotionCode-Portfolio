@@ -36,7 +36,7 @@ import laptop2dark from './assets/laptop 2 dark.png'
 import usermale from './assets/user male.svg'
 import userfemale from './assets/user female.svg'
 import BouncingCircles from './components/BouncingCircles';
-
+import portfolio from './assets/portfolio.png'
 
 
 function App() {
@@ -212,34 +212,32 @@ function App() {
             </a>
           </div>
 
-           {/* <div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative" >
-            <div className="h-[1px] left-1/4 right-1/2 bg-[#1595b6] absolute top-1/2 hidden sm:block" ></div>
-            <div className="w-4 h-4 rounded-full border-[3px] border-[#fc815c] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block" ></div>
-            <a href="#" className="flex w-full relative justify-center sm:justify-start" >
+           <div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative" >
+            <div className="h-[1px] left-1/4 right-1/2 bg-[#905bf5] absolute top-1/2 hidden sm:block" ></div>
+            <div className="w-4 h-4 rounded-full border-[3px] border-[#905bf5] absolute left-1/2 -translate-x-1/2 bg-[#ececec] dark:bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block" ></div>
+            <a href="https://masabqurban-portfolio.vercel.app/" className="flex w-full relative justify-center sm:justify-start" >
               <div className="flex flex-col items-center relative group hover:scale-105 ease-in-out sm:mr-auto duration-200" >
-                <img src={laptop1} alt="" className='max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]'/>
-                <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#fc815c] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2" >Harigurus
+                <img src={portfolio} alt="" className='max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]'/>
+                <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#905bf5] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2" >Portfolio
                 <img src={link} alt="" className='feather feather-external-link'/>
                 </span>
               </div>
             </a>
             <div className="w-full">
-              <h3 className="text-[#fc815c] font-bold text-2xl md:text-4xl"> Harigurus </h3>
-              <span className="text-[#fc815c] text-base md:text-lg" >(Event Booking)</span>
-              <p className="text-justify text-sm md:text-base mt-2"> HariGurus is a one-stop-shop for all Hindu religious, customs and traditional requirements. Built the complete site from scratch. </p>
-              <ul className="flex flex-wrap gap-2 mt-2">
-                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> #react.js </li>
-                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> #express.js </li>
-                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> #node.js </li>
-                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> #swiper.js </li>
-                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> #mongoDB </li>
-                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> #mongoose </li>
-                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> #css </li>
-                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> #javascript </li>
-                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> #figma </li>
+              <h3 className="text-[#905bf5] font-bold text-2xl md:text-4xl"> Portfolio </h3>
+              <span className="text-[#905bf5] text-base md:text-lg" >(A Modern Showcase of My Work)</span>
+              <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2"> A sleek and interactive portfolio showcasing my skills with smooth animations, engaging UI, and modern design elements. Built with React.js and Tailwind CSS, enhanced by AOS, Framer Motion, and Material UI for a dynamic experience. </p>
+              <ul className="flex flex-wrap gap-2 mt-2 text-black dark:text-white">
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> React JS </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Tailwind CSS </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> AOS </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Framer Motion </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Lucide </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Material UI </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> SweetAlert2 </li>
               </ul>
             </div>
-          </div> */}
+          </div>
 
           {/*<div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative" >
             <div className="order-2 sm:order-1 w-full">
@@ -311,7 +309,7 @@ function App() {
                 <div className="flex flex-col md:flex-row w-full md:max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab active:cursor-grabbing" >
                   <img src={noman} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
-                    <p className="text-black dark:text-white font-HubotSans font-medium text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel consequuntur ex, error non provident atque? Iste eveniet eaque dolorem quo placeat odit expedita impedit quam consectetur eius aperiam, temporibus aut.” </p>
+                    <p className="text-black dark:text-white font-Figtree font-medium text-sm md:text-base mb-2"> “Masab is an exceptional developer! His attention to detail and problem-solving skills made our collaboration smooth. He delivers clean, optimized code and always meets deadlines. Highly recommended!” </p>
                     <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Noman Tariq </h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#1f2667e6] dark:text-[#1595b6] text-base md:text-lg"> Flutter App Developer </h5>
                   </div>
@@ -322,7 +320,7 @@ function App() {
                 <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
                   <img src={usermale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
-                    <p className="text-black dark:text-white font-HubotSans font-medium text-sm md:text-base mb-2"> “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto magni praesentium impedit, aut consectetur perferendis suscipit minus temporibus in quam eum modi commodi officia rerum iste beatae, nisi quia necessitatibus!” </p>
+                    <p className="text-black dark:text-white font-Figtree font-medium text-sm md:text-base mb-2"> “Working with Masab was a great experience. His expertise in front-end development, particularly with React and Tailwind CSS, helped streamline our project's UI/UX. A truly skilled professional!” </p>
                     <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Umair Javed </h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#1f2667e6] dark:text-[#1595b6] text-base md:text-lg"> Angular Developer </h5>
                   </div>
@@ -333,7 +331,7 @@ function App() {
                 <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
                   <img src={taha} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
-                    <p className="text-black dark:text-white font-HubotSans font-medium text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum cupiditate culpa dolores ipsum earum magni maiores assumenda molestiae, quaerat aut debitis quas vel excepturi. Ut vel ab molestias earum!” </p>
+                    <p className="text-black dark:text-white font-Figtree font-medium text-sm md:text-base mb-2"> “Masab’s ability to integrate modern web technologies into our project was impressive. He writes efficient, scalable code and is always willing to go the extra mile. Looking forward to working with him again!” </p>
                     <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Taha Umer </h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#1f2667e6] dark:text-[#1595b6] text-base md:text-lg"> MERN Stack Developer </h5>
                   </div>
@@ -344,7 +342,7 @@ function App() {
                 <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
                   <img src={userfemale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
-                    <p className="text-black dark:text-white font-HubotSans text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum cupiditate culpa dolores ipsum earum magni maiores assumenda molestiae, quaerat aut debitis quas vel excepturi. Ut vel ab molestias earum!” </p>
+                    <p className="text-black dark:text-white font-Figtree text-sm md:text-base mb-2"> “Masab understands the importance of design and functionality. His implementation of animations and interactive UI elements brought my designs to life beautifully. A pleasure to work with!” </p>
                     <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Afeera Abid</h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#1f2667e6] dark:text-[#1595b6] text-base md:text-lg"> Graphic Designer </h5>
                   </div>
@@ -355,7 +353,7 @@ function App() {
                 <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
                   <img src={userfemale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]"/>
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
-                    <p className="text-black dark:text-white font-HubotSans text-sm md:text-base mb-2"> “Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum cupiditate culpa dolores ipsum earum magni maiores assumenda molestiae, quaerat aut debitis quas vel excepturi. Ut vel ab molestias earum!” </p>
+                    <p className="text-black dark:text-white font-Figtree text-sm md:text-base mb-2"> “Masab’s expertise in React and Framer Motion is outstanding. His keen eye for UI/UX and structured coding approach make him a great asset to any project. Highly recommended!” </p>
                     <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Hafsa Arshad </h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#1f2667e6] dark:text-[#1595b6] text-base md:text-lg"> Front-End Developer </h5>
                   </div>
