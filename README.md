@@ -9,7 +9,7 @@ Let me introduce myself, I am Masab Qurban, a Web Developer specializing in crea
 - Framer Motion  
 
 Website Link:
-https://www.masab-qurban-portfolio.vercel.app/
+https://masab-qurban-portfolio.vercel.app/
 
 We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 
 # Tutorial: Running the Project  
