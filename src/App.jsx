@@ -178,11 +178,14 @@ function App() {
               <span className='text-[#d9784e] text-base md:text-lg font-HubotSans font-medium' > (Final Year Project)</span>
               <p className='text-black dark:text-white text-justify text-sm md:text-base mt-2 font-HubotSans '> A web-based platform developed in React JS, Node JS and Tailwind CSS featuring calculators for various domains. Integrated a Python-powered AI model utilizing Gemini API to solve handwritten math problems. Achieved 95% accuracy in solving math queries through the AI-powered handwriting recognition feature. </p>
               <ul className='flex flex-wrap gap-2 mt-2 text-black dark:text-white'>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Vite </li>
                 <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend'> React JS </li>
                 <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend'> Node JS </li>
                 <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend'> Python </li>
                 <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend'> Tailwind CSS </li>
                 <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend'> Gemini API </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> GitHub </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Vercel </li>
               </ul>
             </div>
           </div>
@@ -198,6 +201,8 @@ function App() {
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend"> Tailwind CSS </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend"> Figma </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend"> MySQL </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend"> Tesseract OCR </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> GitHub </li>
               </ul>
             </div>
             <div className="h-[1px] left-1/2 right-1/4 bg-[#44b1e5] absolute top-1/2 hidden sm:block" ></div>
@@ -228,13 +233,17 @@ function App() {
               <span className="text-[#905bf5] text-base md:text-lg" >(A Modern Showcase of My Work)</span>
               <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2"> A sleek and interactive portfolio showcasing my skills with smooth animations, engaging UI, and modern design elements. Built with React.js and Tailwind CSS, enhanced by AOS, Framer Motion, and Material UI for a dynamic experience. </p>
               <ul className="flex flex-wrap gap-2 mt-2 text-black dark:text-white">
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Vite </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> React JS </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Tailwind CSS </li>
-                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> AOS </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Firebase </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Framer Motion </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> AOS </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Lucide </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Material UI </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> SweetAlert2 </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> GitHub </li>
+                <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Vercel </li>
               </ul>
             </div>
           </div>
