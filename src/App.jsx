@@ -178,8 +178,8 @@ function App() {
             </a>
             <div className='w-full'>
               <h3 className='text-[#9c3507] dark:text-[#d9784e] font-bold text-2xl md:text-4xl font-lexend'> Tool Matrix </h3>
-              <span className='text-[#9c3507] dark:text-[#d9784e] text-base md:text-lg font-HubotSans font-medium' > (Final Year Project)</span>
-              <p className='text-black dark:text-white text-justify text-sm md:text-base mt-2 font-HubotSans '> A web-based platform developed in React JS, Node JS and Tailwind CSS featuring calculators for various domains. Integrated a Python-powered AI model utilizing Gemini API to solve handwritten math problems. Achieved 95% accuracy in solving math queries through the AI-powered handwriting recognition feature. </p>
+              <span className='text-[#9c3507] dark:text-[#d9784e] text-base md:text-lg font-HubotSans font-semibold' > (Final Year Project)</span>
+              <p className='text-black dark:text-white text-justify text-sm md:text-base mt-2 font-HubotSans font-medium'> A web-based platform developed in React JS, Node JS and Tailwind CSS featuring calculators for various domains. Integrated a Python-powered AI model utilizing Gemini API to solve handwritten math problems. Achieved 95% accuracy in solving math queries through the AI-powered handwriting recognition feature. </p>
               <ul className='flex flex-wrap gap-2 mt-2 text-black dark:text-white'>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Vite </li>
                 <li className='border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend'> React JS </li>
@@ -196,8 +196,8 @@ function App() {
           <div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative" >
             <div className="order-2 sm:order-1 w-full">
               <h3 className="text-[#905bf5] font-bold text-2xl md:text-4xl font-lexend">Portfolio </h3>
-              <span className="text-[#905bf5] text-base md:text-lg font-HubotSans font-medium" >(A Modern Showcase of My Work)</span >
-              <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2 font-HubotSans">A sleek and interactive portfolio showcasing my skills with smooth animations, engaging UI, and modern design elements. Built with React.js and Tailwind CSS, enhanced by AOS, Framer Motion, and Material UI for a dynamic experience.</p>
+              <span className="text-[#905bf5] text-base md:text-lg font-HubotSans font-semibold" >(A Modern Showcase of My Work)</span >
+              <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2 font-HubotSans font-medium">A sleek and interactive portfolio showcasing my skills with smooth animations, engaging UI, and modern design elements. Built with React.js and Tailwind CSS, enhanced by AOS, Framer Motion, and Material UI for a dynamic experience.</p>
               <ul className="flex flex-wrap gap-2 mt-2 text-black dark:text-white">
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Vite </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> React JS </li>
@@ -238,8 +238,8 @@ function App() {
             </a>
             <div className="w-full">
               <h3 className="text-[#44b1e5] font-bold text-2xl md:text-4xl"> PNG to Text </h3>
-              <span className="text-[#44b1e5] text-base md:text-lg" >(Image Processor)</span>
-              <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2">  Developed a feature-rich web-based platform using PHP, Laravel and Tailwind CSS. Integrated tools for image conversion, compression, and text extraction to enhance file processing efficiency.  </p>
+              <span className="text-[#44b1e5] text-base md:text-lg font-HubotSans font-semibold" >(Image Processor)</span>
+              <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2 font-HubotSans font-medium">  Developed a feature-rich web-based platform using PHP, Laravel and Tailwind CSS. Integrated tools for image conversion, compression, and text extraction to enhance file processing efficiency.  </p>
               <ul className="flex flex-wrap gap-2 mt-2 text-black dark:text-white">
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend"> PHP Laravel </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base font-lexend"> JavaScript </li>
@@ -255,8 +255,8 @@ function App() {
           <div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative" >
             <div className="order-2 sm:order-1 w-full">
               <h3 className="text-[#05cafa] font-bold text-2xl md:text-4xl"> Snow Dream Studios </h3>
-              <span className="text-[#05cafa] text-base md:text-lg" >(Company's Website)</span>
-              <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2"> Snow Dream Studios is a Swiss-based digital studio blending cutting-edge tech with stunning design. Built with Next.js, Tailwind CSS, Framer Motion, and JavaScript, and hosted on Vercel, it delivers a visually rich, interactive experience. The platform features smooth animations, a modern design, and a comprehensive portfolio, including case studies, services, career opportunities, and team insights. With intuitive design and optimized performance, it sets a new standard for corporate websites. </p>
+              <span className="text-[#05cafa] text-base md:text-lg font-HubotSans font-semibold" >(Company's Website)</span>
+              <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2 font-HubotSans font-medium"> Snow Dream Studios, a Swiss-based digital studio, merges tech and design for a seamless, interactive experience. Built with Next.js, Tailwind CSS, Framer Motion, and JavaScript, it features smooth animations, a modern UI, and a rich portfolio. Hosted on Vercel, it redefines corporate websites with performance and innovation. </p>
               <ul className="flex flex-wrap gap-2 mt-2 text-black dark:text-white">
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Next JS</li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"> Tailwind CSS </li>
@@ -281,7 +281,7 @@ function App() {
 
           <div className="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative" >
             <div className="h-[1px] left-1/4 right-1/2 bg-[#114f7d] absolute top-1/2 hidden sm:block" ></div>
-            <div className="w-4 h-4 rounded-full border-[3px] border-[#114f7d] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block" ></div>
+            <div className="w-4 h-4 rounded-full border-[3px] border-[#114f7d] absolute left-1/2 -translate-x-1/2 bg-[#ececec] dark:bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block" ></div>
             <a href="https://estorefoam.co.uk/" className="flex w-full relative justify-center sm:justify-start" >
               <div className="flex flex-col items-center relative group hover:scale-105 ease-in-out sm:mr-auto duration-200" >
                 <img src={laptop4} alt="" className='max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]'/>
@@ -292,8 +292,8 @@ function App() {
             </a>
             <div className="w-full">
               <h3 className="text-[#114f7d] font-bold text-2xl md:text-4xl"> Estorefoam </h3>
-              <span className="text-[#114f7d] text-base md:text-lg" >(E-Commerce Platform)</span >
-              <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2"> Estorefoam, the UK’s largest online foam supplier since 2000, has a revamped e-commerce platform built with PHP Laravel and Tailwind CSS. The website offers custom foam visualization, allowing users to input measurements and see a visual representation of their foam. With over 25 years of expertise, it provides high-quality foam materials, including polyurethane and polyethylene, cut to any shape or size. Catering to upholsterers, crafters, and more, the platform combines modern design, functionality, and ease of use for an exceptional shopping experience. </p>
+              <span className="text-[#114f7d] text-base md:text-lg font-HubotSans font-semibold" >(E-Commerce Platform)</span >
+              <p className="text-black dark:text-white text-justify text-sm md:text-base mt-2 font-HubotSans font-medium"> Estorefoam, the UK’s largest online foam supplier since 2000, offers custom foam visualization on its revamped PHP Laravel and Tailwind CSS platform. With 25+ years of expertise, it provides high-quality foam in any shape or size, serving upholsterers, crafters, and more with a seamless shopping experience. </p>
               <ul className="flex flex-wrap gap-2 mt-2 text-black dark:text-white">
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base" > Laravel </li>
                 <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base" > Tailwind CSS </li>
