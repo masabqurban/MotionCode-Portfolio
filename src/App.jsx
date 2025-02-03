@@ -22,23 +22,21 @@ import x from './assets/twitter-x.svg'
 import instagram from './assets/instagram.svg'
 import downArrow from './assets/downArrow.svg'
 import rightArrow from './assets/rightArrow.svg'
-import laptop1 from './assets/reference/ProCodrr.webp'
 import link from './assets/link-icon.svg'
 import blacklink from './assets/black-link-icon.svg'
 import taha from './assets/taha.jpeg'
 import noman from './assets/noman.jpeg'
-import connect from './assets/connect.png'
 import contactme from './assets/contact-me.svg'
 import laptop1light from './assets/laptop 1 light.png'
-import laptop1dark from './assets/laptop 5 dark.png'
-import laptop2light from './assets/laptop 2 light.png'
-import laptop2dark from './assets/laptop 2 dark.png'
+import laptop1dark from './assets/laptop 1 dark.png'
+import laptop2light from './assets/laptop 3 light.png'
+import laptop2dark from './assets/laptop 3 dark.png'
 import usermale from './assets/user male.svg'
 import userfemale from './assets/user female.svg'
 import BouncingCircles from './components/BouncingCircles';
-import portfolio from './assets/portfolio.png'
-import laptop3 from './assets/laptop 3.png'
-import laptop4 from './assets/laptop 4.png'
+import portfolio from './assets/laptop 2.png'
+import laptop3 from './assets/laptop 4.png'
+import laptop4 from './assets/laptop 5.png'
 
 
 
@@ -170,7 +168,8 @@ function App() {
             </div>
             <a href="https://tool-matrix.vercel.app/" className='flex w-full relative justify-center sm:justify-start'>
               <div className='flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200'>
-                <img src={laptop1dark} alt="" className='max-w-7xl w-[400px] mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]' />
+                <img src={laptop1dark} alt="" className='max-w-7xl w-[400px] mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)] hidden dark:block' />
+                <img src={laptop1light} alt="" className='max-w-7xl w-[400px] mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)] dark:hidden' />
                 <span className='font-lexend flex group-hover:-top-14 ease-jump duration-200 bg-[#d9784e] text-black sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded-md w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 transition-all'> Tool Matrix
                   <img src={blacklink} alt="" className='feather feather-external-link' />
                 </span>
@@ -229,7 +228,8 @@ function App() {
             <div className="w-4 h-4 rounded-full border-[3px] border-[#44b1e5] absolute left-1/2 -translate-x-1/2 bg-[#ececec] dark:bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block" ></div>
             <a href="https://pngtotext.com/" className="flex w-full relative justify-center sm:justify-start" >
               <div className="flex flex-col items-center relative group hover:scale-105 ease-in-out sm:mr-auto duration-200" >
-                <img src={laptop2dark} alt="" className='max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]' />
+                <img src={laptop2dark} alt="" className='max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)] hidden dark:block' />
+                <img src={laptop2light} alt="" className='max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)] dark:hidden' />
                 <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#44b1e5] text-black sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2" >PNG to Text
                   <img src={blacklink} alt="" className='feather feather-external-link' />
                 </span>
