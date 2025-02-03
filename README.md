@@ -8,9 +8,11 @@ Let me introduce myself, I am Masab Qurban, a Web Developer specializing in crea
 
 **Tech Stack used:**  
 - ReactJS  
+- Vite
 - Matter JS
 - Tailwind CSS
 - Framer Motion  
+- Vercel
 
 Website Link:
 https://masab-qurban-portfolio.vercel.app/
