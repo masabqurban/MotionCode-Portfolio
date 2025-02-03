@@ -284,7 +284,7 @@ function App() {
             <a href="https://estorefoam.co.uk/" className="flex w-full relative justify-center sm:justify-start" >
               <div className="flex flex-col items-center relative group hover:scale-105 ease-in-out sm:mr-auto duration-200" >
                 <img src={laptop4} alt="" className='max-w-[400px] w-full mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]'/>
-                <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#114f7d] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2" >Pioneer Digital
+                <span className="flex group-hover:-top-14 ease-jump duration-200 bg-[#114f7d] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2" >Estorefoam
                 <img src={link} alt="" className='feather feather-external-link'/>
                 </span>
               </div>
