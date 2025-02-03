@@ -2,6 +2,10 @@
 Hello everyone!  
 Let me introduce myself, I am Masab Qurban, a Web Developer specializing in creating interactive, responsive, and visually appealing user interfaces. Explore my work here!.  
 
+### Project Status: 🚀  
+- **Project Created:** 10/01/2025    
+- **Live Release Date:** 10/01/2025
+
 **Tech Stack used:**  
 - ReactJS  
 - Matter JS
