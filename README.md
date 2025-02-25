@@ -8,7 +8,7 @@ Let me introduce myself, I am Masab Qurban, a Web Developer specializing in crea
 - **Live Release Date:** 10/01/2025
 
 **Tech Stack used:**  
-- ReactJS  
+- React JS  
 - Vite
 - Matter JS
 - Tailwind CSS
