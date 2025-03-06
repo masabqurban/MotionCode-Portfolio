@@ -1,6 +1,6 @@
 # React + Vite
 ## MotionCode Portfolio
-Physics-Driven Developer Showcase | Matter.js Experiments
+#### Physics-Driven Developer Showcase | Matter.js Experiments
 Hello everyone!  
 Welcome to MotionCode Portfolio, a reactive portfolio featuring physics simulations (gravity/inertia) with Matter.js, demonstrating creative coding and experimental web interactions.
 
