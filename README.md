@@ -36,7 +36,7 @@ Ensure that you have already installed:
 1. **Download this project:**  
 
    ```bash  
-   git clone https://github.com/masabqurban/animated-portfolio.git
+   git clone https://github.com/masabqurban/MotionCode-Portfolio.git
    ```  
 
 2. **Install all dependencies:**  
