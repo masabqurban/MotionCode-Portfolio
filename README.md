@@ -1,13 +1,15 @@
 # React + Vite
+## MotionCode Portfolio
+#### Physics-Driven Developer Showcase | Matter.js Experiments
 Hello everyone!  
-Let me introduce myself, I am Masab Qurban, a Web Developer specializing in creating interactive, responsive, and visually appealing user interfaces. Explore my work here!.  
+Welcome to MotionCode Portfolio, a reactive portfolio featuring physics simulations (gravity/inertia) with Matter.js, demonstrating creative coding and experimental web interactions.
 
 ### Project Status: 🚀  
 - **Project Created:** 10/01/2025    
 - **Live Release Date:** 10/01/2025
 
 **Tech Stack used:**  
-- ReactJS  
+- React JS  
 - Vite
 - Matter JS
 - Tailwind CSS
@@ -34,7 +36,7 @@ Ensure that you have already installed:
 1. **Download this project:**  
 
    ```bash  
-   git clone https://github.com/masabqurban/animated-portfolio.git
+   git clone https://github.com/masabqurban/MotionCode-Portfolio.git
    ```  
 
 2. **Install all dependencies:**  
