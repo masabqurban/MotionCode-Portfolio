@@ -350,7 +350,7 @@ function App() {
                   <img src={userfemale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]" />
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
                     <p className="text-black dark:text-white font-Figtree text-sm md:text-base mb-2"> “Masab understands the importance of design and functionality. His implementation of animations and interactive UI elements brought my designs to life beautifully. A pleasure to work with!” </p>
-                    <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Afeera Abid</h2>
+                    <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Nouman Ahmad </h2>
                     <h5 className="font-HubotSans font-medium text-right text-[#1f2667e6] dark:text-[#1595b6] text-base md:text-lg"> Graphic Designer </h5>
                   </div>
                 </div>
@@ -361,8 +361,8 @@ function App() {
                   <img src={userfemale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]" />
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
                     <p className="text-black dark:text-white font-Figtree text-sm md:text-base mb-2"> “Masab’s expertise in React and Framer Motion is outstanding. His keen eye for UI/UX and structured coding approach make him a great asset to any project. Highly recommended!” </p>
-                    <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Hafsa Arshad </h2>
-                    <h5 className="font-HubotSans font-medium text-right text-[#1f2667e6] dark:text-[#1595b6] text-base md:text-lg"> Front-End Developer </h5>
+                    <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Hammad Ali </h2>
+                    <h5 className="font-HubotSans font-medium text-right text-[#1f2667e6] dark:text-[#1595b6] text-base md:text-lg"> UI/UX Designer </h5>
                   </div>
                 </div>
               </div>
