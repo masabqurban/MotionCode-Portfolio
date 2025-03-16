@@ -347,7 +347,7 @@ function App() {
 
               <div className="swiper-slide px-4">
                 <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
-                  <img src={userfemale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]" />
+                  <img src={usermale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]" />
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
                     <p className="text-black dark:text-white font-Figtree text-sm md:text-base mb-2"> “Masab understands the importance of design and functionality. His implementation of animations and interactive UI elements brought my designs to life beautifully. A pleasure to work with!” </p>
                     <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Nouman Ahmad </h2>
@@ -358,7 +358,7 @@ function App() {
 
               <div className="swiper-slide px-4">
                 <div className="flex flex-col md:flex-row max-w-[800px] items-center rounded-lg p-9 shadow-[0_0px_50px_rgba(59,130,246,0.6)] cursor-grab" >
-                  <img src={userfemale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]" />
+                  <img src={usermale} alt="testimonial 3" className="shrink-0 w-[120px] h-[120px] md:w-[180px] md:h-[180px] rounded-full drop-shadow-[0_0px_80px_rgba(59,130,246,1)]" />
                   <div className="testimonial-text ml-6 text-left pt-6 md:pt-16 relative" >
                     <p className="text-black dark:text-white font-Figtree text-sm md:text-base mb-2"> “Masab’s expertise in React and Framer Motion is outstanding. His keen eye for UI/UX and structured coding approach make him a great asset to any project. Highly recommended!” </p>
                     <h2 className="font-lexend text-right text-[#1f2667e6] dark:text-[#1595b6] font-bold text-2xl md:text-4xl" > Hammad Ali </h2>
