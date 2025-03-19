@@ -7,6 +7,8 @@ import tailwind from '../assets/tailwindcsslogo.svg'
 import laravel from '../assets/laravellogo.svg'
 import mypic2 from '../assets/mypic2.png'
 import Download from './downloadbutton';
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 
 const Popup = ({ close }) => {
@@ -65,7 +67,13 @@ const Popup = ({ close }) => {
             <span className='z-0 text-[190px] absolute -bottom-14 -right-40 text-[#27282f] font-bold heading-font'>DEVELO</span>
             <div className="flex justify-between items-start">
               <div className="md:w-full w-[150px] relative flex items-start justify-start">
-                <img src={mypic2} alt="my picture" className="z-10 w-full h-full object-cover mx-auto" />
+                {/* Lazy Loading Image */}
+                <LazyLoadImage
+                  src={mypic2}
+                  alt="My Picture"
+                  effect="blur" // You can also use "opacity" or "black-and-white"
+                  className="z-10 w-full h-full object-cover mx-auto"
+                />
               </div>
               <button className="absolute right-1 md:right-4 top-1 md:top-4 text-gray-400 hover:text-white focus:outline-none font-lexend" onClick={close} > <Button /> </button>
             </div>
