@@ -22,7 +22,7 @@ const Popup = ({ close }) => {
           <div className='relative h-full bg-[#ececec] text-black p-5 lg:p-20 overflow-hidden'>
             <span className='z-0 text-[190px] absolute -top-14 -right-24 text-[#e6e6e6] font-bold heading-font'>ABOUT</span>
             <h2 className="relative z-10 text-[#1595b6] text-3xl md:text-4xl font-semibold font-lexend">ABOUT ME</h2>
-            <h2 className="relative z-10 text-[#1595b6] text-lg mb-2 md:mb-4 font-HubotSans font-medium">Front-End Web Developer</h2>
+            <h2 className="relative z-10 text-[#1595b6] text-lg mb-2 md:mb-4 font-HubotSans font-medium">Full Stack Web Developer</h2>
             <p className="mb-2 md:mb-4 relative z-10 font-HubotSans font-medium text-sm md:text-base">
               I help business owners and busy web developers to design & develop creative websites that fit their vision
               and attract the visitors to stay for ever. Technologies and tools that I use to create such awesome websites.
@@ -36,12 +36,15 @@ const Popup = ({ close }) => {
                 'Tailwind CSS',
                 'React JS',
                 'Next JS',
+                'Node JS',
                 'Laravel',
                 'MySQL',
+                'MongoDB',
+                'Firebase',
                 'GitHub',
-                'Canva',
                 'Figma',
-                'MS Office',
+                'Linux',
+                'Ubuntu',
               ].map((tag) => (
                 <span
                   key={tag}

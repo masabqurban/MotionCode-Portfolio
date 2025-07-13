@@ -122,7 +122,7 @@ function App() {
               <img src={blueLogoM} alt="" className='pointer-events-none absolute top-0 left-1/2 -translate-y-[70px] sm:-translate-y-[100px] -translate-x-1/2 w-[200px] sm:w-[300px] md:w-[500px] opacity-80' />
               <div className='relative' ref={Section1}>
                 <motion.h1 className='text-black dark:text-white pointer-events-none text-[32px] md:text-[64px] font-bold font-lexend mr-12' initial="hidden" animate="visible" transition={{ opacity: { duration: 0.4, delay: 0.2 }, y: { duration: 0.4, delay: 0.2 } }} variants={CVariants}> Masab Qurban </motion.h1>
-                <motion.p className='text-black dark:text-white pointer-events-none text-[18px] md:text-[25px] font-medium font-HubotSans italic my-4 md:my-8' initial="hidden" animate="visible" transition={{ opacity: { duration: 0.7, delay: 0.5 }, y: { duration: 0.7, delay: 0.5 } }} variants={CVariants}> Front-End Website Developer </motion.p>
+                <motion.p className='text-black dark:text-white pointer-events-none text-[18px] md:text-[25px] font-medium font-HubotSans italic my-4 md:my-8' initial="hidden" animate="visible" transition={{ opacity: { duration: 0.7, delay: 0.5 }, y: { duration: 0.7, delay: 0.5 } }} variants={CVariants}> Software Engineer </motion.p>
                 {/* <button className="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group"> About Me
                     <img src={rightArrow} alt="" className='absolute top-1/2 -translate-y-1/2 -right-7 group-hover:-right-8 ease-in-out duration-100' />
                   </button> */}
@@ -214,7 +214,7 @@ function App() {
             </div>
             <div className="h-[1px] left-1/2 right-1/4 bg-[#905bf5] absolute top-1/2 hidden sm:block" ></div>
             <div className="w-4 h-4 rounded-full border-[3px] border-[#905bf5] absolute left-1/2 -translate-x-1/2 bg-[#ececec] dark:bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block" ></div>
-            <a href="https://masabqurban-portfolio.vercel.app/" className="order-1 md:order-2 flex w-full relative justify-center sm:justify-start" >
+            <a href="https://www.masabqurban.com/" className="order-1 md:order-2 flex w-full relative justify-center sm:justify-start" >
               <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200 transition-all sm:ml-auto" >
                 <img src={portfolio} alt="" className='block dark:block max-w-7xl w-[400px] mr-auto relative z-10 drop-shadow-[0_0px_60px_rgba(59,130,246,0.6)]' />
                 <span className="font-lexend flex group-hover:-top-14 ease-jump duration-200 text-white bg-[#905bf5] sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-2 py-1 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 transition-all" >Portfolio
