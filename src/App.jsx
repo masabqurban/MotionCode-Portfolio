@@ -395,7 +395,7 @@ function App() {
         </section>
 
         <footer className="flex flex-col items-center pb-20">
-          <p className="text-xs text-black dark:text-gray-300 font-lexend font-semibold">Masab Qurban © 2025</p>
+          <p className="text-xs text-black dark:text-gray-300 font-lexend font-semibold">Masab Qurban © 2026</p>
           <div href='#home' onClick={scrollToTop} className="my-4 cursor-pointer "> <img src={blueLogoM} alt="" className='w-14 h-14' /> </div>
           <SocialMedia />
         </footer>
